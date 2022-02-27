@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: "yunchuan";
+    src: url(../../fonts/yunchuan.ttf) format("truetype");
+}
+body{
+    font-family: "yunchuan";
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 18px;
+}
+
+*{
+    text-decoration: none !important;
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px 0 0px;
+    background-color: #4a1b32;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+  
+  
+  }
+  
+  .nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #dab858;
+  }
+  
+  .nav .links .mainlink{
+    color: #e84300;
+  }
+  
+  .nav h4{
+    color: #dab858;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+  }
+
+
+
+
+
+
+.section h1{
+    font-size: 80px;
+    margin: 0 0 30px;
+
+}
+
+p{
+    margin: 0; 
+}
+
+.section1{
+    background-color:#4a1b32;
+}
+
+.slide img{
+    margin-top: 53px;
+    width: 100%;
+}
+
+.section2{
+    background-color:#4a1b32
+}
+
+.section3{
+    background-color:#4a1b32;
+}
+
+.section4{
+    background-color:#4a1b32;
+}
+
+
+#fp-nav.fp-right{
+    right: 10px;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background:#dab858 ;
+}
+
+.slide{
+    font-size: 50px;
+}
+
+
